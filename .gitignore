@@ -1,0 +1,7 @@
+# Ignore large sequencing and QIIME 2 artifact files
+data/fastq/*.fastq.gz
+data/qiime2/*.qza
+data/qiime2/*.qzv
+
+# Ignore Windows/WSL metadata files
+*:Zone.Identifier
